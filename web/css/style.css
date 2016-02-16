@@ -1,0 +1,130 @@
+body {
+    background-color: rgba(9, 254, 207, 0.32);
+}
+body { margin: 0; }
+#sidebar, #content { position: absolute; }
+#sidebar, #content { overflow: auto; padding: 10px; }
+#header {
+    height: 80px; /* Высота слоя */
+    background: #12fee3; border-bottom: 6px solid #0cafb5;
+}
+#header h1 {
+    position: absolute;
+    left: 30px;  /*Положение блока от левого края */
+    top: 20px; /* Расстояние от верхнего края */
+    margin: auto;
+    font-size: 40px;
+    color: #098877;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+#sidebar {
+    width: 170px; background: rgba(6, 212, 181, 0.61); border-right: 6px solid #0cafb5;
+    top: 85px; /* Расстояние от верхнего края */
+    bottom: 0; /* Расстояние снизу  */
+}
+#content {
+    margin: auto;
+    top: 86px; /* Расстояние от верхнего края */
+    left: 170px; /* Расстояние от левого края */
+    bottom: 0; right: 0;
+}
+.tabl{
+    margin: auto;
+    width: 900px;
+    top: 0; /* Положение блока от верхнего края */
+    bottom: 0;  /*Положение блока от нижнего края */
+    left: 0;  /*Положение блока от левого края */
+    right: 0;  /*Положение блока от правого края */
+    background-color: #99ffe4;
+    border: 6px solid rgba(12, 175, 181, 0.91); /* Рамка блока */
+    overflow: auto; /* Полоса прокрутки */
+}
+table {
+    margin: auto;
+    width: 600px;
+    top: 0; /* Положение блока от верхнего края */
+    bottom: 0;  /*Положение блока от нижнего края */
+    left: 0;  /*Положение блока от левого края */
+    right: 0;  /*Положение блока от правого края */
+    background-color: #99ffe4;
+    border: 6px solid rgba(12, 175, 181, 0.91); /* Рамка блока */
+    overflow: auto; /* Полоса прокрутки */
+}
+
+td {
+    font-size:20px;
+    text-align:  center;
+}
+caption{
+    color: #098877;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+}
+table th:first-child{
+    width: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+th{
+    width: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.button{
+    position: relative;
+    margin: 10px;
+    font-weight: 100;
+    width: 150px;
+    height: 30px;
+    color: #098877;
+    text-decoration: none;
+    padding: .3em 2em calc(.3em + 1px);
+    border-radius: 3px;
+    background: rgb(120, 255, 230);
+    box-shadow: 0 -3px rgb(26, 225, 196) inset;
+    transition: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.but{
+    position: absolute;
+    margin: auto;
+    top: 0; /* Положение блока от верхнего края */
+    bottom: 0;  /*Положение блока от нижнего края */
+    left: 0;  /*Положение блока от левого края */
+    right: 0;  /*Положение блока от правого края */
+    font-weight: 100;
+    width: 150px;
+    height: 30px;
+    color: #098877;
+    text-decoration: none;
+    padding: .3em 2em calc(.3em + 1px);
+    border-radius: 3px;
+    background: rgb(120, 255, 230);
+    box-shadow: 0 -3px rgb(12, 220, 193) inset;
+    transition: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.inp{
+    width: 300px;
+}
+.edit{
+    width: 130px;
+}
+table th:last-child{
+    width: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.check {
+   width: 25px;
+    height: 25px;
+}
